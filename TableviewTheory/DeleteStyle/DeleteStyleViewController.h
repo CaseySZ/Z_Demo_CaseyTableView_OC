@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+
+/*
+ 
+1 滑动删除是tableview相关，在tableview上操作
+2 编辑模式是在cell上操作
+ 
+ */
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DeleteStyleViewController : UIViewController

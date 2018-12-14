@@ -20,6 +20,9 @@
 		C94F3D7221C264B1008D94D6 /* DeleteStyleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C94F3D7121C264B1008D94D6 /* DeleteStyleViewController.xib */; };
 		C94F3D7521C264F2008D94D6 /* ReportTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C94F3D7421C264F2008D94D6 /* ReportTableView.m */; };
 		C94F3D7821C26605008D94D6 /* DeleteStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = C94F3D7721C26605008D94D6 /* DeleteStatusView.m */; };
+		C94F3D7E21C34898008D94D6 /* ReportTestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C94F3D7D21C34898008D94D6 /* ReportTestTableView.m */; };
+		C94F3D8121C348D1008D94D6 /* UIView+SearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C94F3D8021C348D1008D94D6 /* UIView+SearchView.m */; };
+		C94F3D8421C34EDF008D94D6 /* ReportCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C94F3D8321C34EDF008D94D6 /* ReportCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,12 @@
 		C94F3D7421C264F2008D94D6 /* ReportTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportTableView.m; sourceTree = "<group>"; };
 		C94F3D7621C26605008D94D6 /* DeleteStatusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeleteStatusView.h; sourceTree = "<group>"; };
 		C94F3D7721C26605008D94D6 /* DeleteStatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeleteStatusView.m; sourceTree = "<group>"; };
+		C94F3D7C21C34898008D94D6 /* ReportTestTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportTestTableView.h; sourceTree = "<group>"; };
+		C94F3D7D21C34898008D94D6 /* ReportTestTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportTestTableView.m; sourceTree = "<group>"; };
+		C94F3D7F21C348D1008D94D6 /* UIView+SearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SearchView.h"; sourceTree = "<group>"; };
+		C94F3D8021C348D1008D94D6 /* UIView+SearchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SearchView.m"; sourceTree = "<group>"; };
+		C94F3D8221C34EDF008D94D6 /* ReportCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportCell.h; sourceTree = "<group>"; };
+		C94F3D8321C34EDF008D94D6 /* ReportCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +127,16 @@
 				C94F3D6921C262B9008D94D6 /* DeleteStyleViewController.h */,
 				C94F3D6A21C262B9008D94D6 /* DeleteStyleViewController.m */,
 				C94F3D7121C264B1008D94D6 /* DeleteStyleViewController.xib */,
+				C94F3D8221C34EDF008D94D6 /* ReportCell.h */,
+				C94F3D8321C34EDF008D94D6 /* ReportCell.m */,
 				C94F3D7321C264F2008D94D6 /* ReportTableView.h */,
 				C94F3D7421C264F2008D94D6 /* ReportTableView.m */,
+				C94F3D7C21C34898008D94D6 /* ReportTestTableView.h */,
+				C94F3D7D21C34898008D94D6 /* ReportTestTableView.m */,
 				C94F3D7621C26605008D94D6 /* DeleteStatusView.h */,
 				C94F3D7721C26605008D94D6 /* DeleteStatusView.m */,
+				C94F3D7F21C348D1008D94D6 /* UIView+SearchView.h */,
+				C94F3D8021C348D1008D94D6 /* UIView+SearchView.m */,
 			);
 			path = DeleteStyle;
 			sourceTree = "<group>";
@@ -198,11 +213,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94F3D8421C34EDF008D94D6 /* ReportCell.m in Sources */,
 				C94F3D5221C260BB008D94D6 /* ViewController.m in Sources */,
 				C94F3D5D21C260BC008D94D6 /* main.m in Sources */,
 				C94F3D6F21C262E7008D94D6 /* HeaderSuspendViewController.m in Sources */,
+				C94F3D8121C348D1008D94D6 /* UIView+SearchView.m in Sources */,
 				C94F3D7521C264F2008D94D6 /* ReportTableView.m in Sources */,
 				C94F3D4F21C260BB008D94D6 /* AppDelegate.m in Sources */,
+				C94F3D7E21C34898008D94D6 /* ReportTestTableView.m in Sources */,
 				C94F3D6821C262A2008D94D6 /* TheoryViewController.m in Sources */,
 				C94F3D6B21C262B9008D94D6 /* DeleteStyleViewController.m in Sources */,
 				C94F3D7821C26605008D94D6 /* DeleteStatusView.m in Sources */,
@@ -282,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -335,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

@@ -46,12 +46,27 @@
         _button.titleLabel.font = [UIFont systemFontOfSize:14];
         _button.titleLabel.numberOfLines = 0;
         
-        [self addSubview:_button];
+        
+        
+        self.backgroundColor = UIColor.blackColor;
     }
     
     return self;
     
 }
 
+
+- (void)layoutSubviews{
+    
+    [super layoutSubviews];
+    
+    if (_button.superview == nil) {
+        
+        [self addSubview:_button];
+    }
+    
+    _button.frame = CGRectMake(0, (self.frame.size.height-80)/2, 60, 80);
+    
+}
 
 @end

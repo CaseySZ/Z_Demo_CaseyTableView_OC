@@ -1,8 +1,8 @@
 //
-//  DepositReportView.h
+//  ReportTestTableView.h
 //  TableviewTheory
 //
-//  Created by Casey on 13/12/2018.
+//  Created by Casey on 14/12/2018.
 //  Copyright © 2018 Casey. All rights reserved.
 //
 
@@ -11,15 +11,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ReportTableView : UITableView
+@interface ReportTestTableView : UITableView
 
-
-@property (nonatomic, assign)BOOL currentCellDeteteStyle;
 @property (nonatomic,strong)DeleteStatusView *deleteStatusView;
+@property (nonatomic, assign)BOOL currentCellDeteteStyle;
 
 @end
-
-
-
 
 NS_ASSUME_NONNULL_END

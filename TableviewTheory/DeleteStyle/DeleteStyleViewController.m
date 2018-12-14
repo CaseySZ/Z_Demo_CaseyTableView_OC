@@ -8,10 +8,13 @@
 
 #import "DeleteStyleViewController.h"
 #import "ReportTableView.h"
+#import "ReportTestTableView.h"
+#import "ReportCell.h"
+
 
 @interface DeleteStyleViewController ()<UITableViewDataSource, UITableViewDelegate>{
     
-    IBOutlet ReportTableView *_tableView;
+    IBOutlet ReportTestTableView *_tableView;
 }
 
 @end
@@ -38,14 +41,14 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     
-    return 60;
+    return 90;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     
-    UITableViewCell *cell = [[UITableViewCell alloc] init];
+    ReportCell *cell = [[ReportCell alloc] init];
     cell.textLabel.text = [@(indexPath.row) description];
     return cell;
     
