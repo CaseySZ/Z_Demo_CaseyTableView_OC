@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "StudyViewController.h"
 #import "DeleteStyle/DeleteStyleViewController.h"
 #import "Theory/TheoryViewController.h"
 #import "HeaderSuspend/HeaderSuspendViewController.h"
@@ -25,8 +26,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    titleArr = @[@"Theory", @"headerSuspend", @"DeleteStyle"];
+    self.navigationController.navigationBar.translucent = NO;
+    titleArr = @[@"StudyTheory", @"Theory", @"headerSuspend", @"DeleteStyle"];
     
 }
 
@@ -58,8 +59,11 @@
     
     UIViewController *viewCtr = nil;
     if (indexPath.row == 0){
+        viewCtr = [StudyViewController new];
+    }
+    else if (indexPath.row == 1){
         viewCtr = [TheoryViewController new];
-    }else if (indexPath.row == 1){
+    }else if (indexPath.row == 2){
         viewCtr = [HeaderSuspendViewController new];
     }else {
         viewCtr = [DeleteStyleViewController new];

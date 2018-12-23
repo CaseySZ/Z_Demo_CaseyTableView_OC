@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11FE42CF21CF310400C83C6E /* StudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FE42CD21CF310400C83C6E /* StudyViewController.m */; };
+		11FE42D521CF319000C83C6E /* EOCCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FE42D321CF319000C83C6E /* EOCCellModel.m */; };
+		11FE42D621CF319000C83C6E /* EOCTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FE42D421CF319000C83C6E /* EOCTableView.m */; };
+		11FE42D921CF32BF00C83C6E /* HeadSuspendTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FE42D721CF32BE00C83C6E /* HeadSuspendTableView.m */; };
 		C94F3D4F21C260BB008D94D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C94F3D4E21C260BB008D94D6 /* AppDelegate.m */; };
 		C94F3D5221C260BB008D94D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C94F3D5121C260BB008D94D6 /* ViewController.m */; };
 		C94F3D5521C260BB008D94D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94F3D5321C260BB008D94D6 /* Main.storyboard */; };
@@ -16,7 +20,6 @@
 		C94F3D6821C262A2008D94D6 /* TheoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C94F3D6721C262A2008D94D6 /* TheoryViewController.m */; };
 		C94F3D6B21C262B9008D94D6 /* DeleteStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C94F3D6A21C262B9008D94D6 /* DeleteStyleViewController.m */; };
 		C94F3D6F21C262E7008D94D6 /* HeaderSuspendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C94F3D6D21C262E7008D94D6 /* HeaderSuspendViewController.m */; };
-		C94F3D7021C262E7008D94D6 /* HeaderSuspendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C94F3D6E21C262E7008D94D6 /* HeaderSuspendViewController.xib */; };
 		C94F3D7221C264B1008D94D6 /* DeleteStyleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C94F3D7121C264B1008D94D6 /* DeleteStyleViewController.xib */; };
 		C94F3D7521C264F2008D94D6 /* ReportTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C94F3D7421C264F2008D94D6 /* ReportTableView.m */; };
 		C94F3D7821C26605008D94D6 /* DeleteStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = C94F3D7721C26605008D94D6 /* DeleteStatusView.m */; };
@@ -26,6 +29,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11FE42CC21CF310400C83C6E /* StudyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudyViewController.h; sourceTree = "<group>"; };
+		11FE42CD21CF310400C83C6E /* StudyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyViewController.m; sourceTree = "<group>"; };
+		11FE42D121CF319000C83C6E /* EOCTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCTableView.h; sourceTree = "<group>"; };
+		11FE42D221CF319000C83C6E /* EOCCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCCellModel.h; sourceTree = "<group>"; };
+		11FE42D321CF319000C83C6E /* EOCCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCCellModel.m; sourceTree = "<group>"; };
+		11FE42D421CF319000C83C6E /* EOCTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCTableView.m; sourceTree = "<group>"; };
+		11FE42D721CF32BE00C83C6E /* HeadSuspendTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadSuspendTableView.m; sourceTree = "<group>"; };
+		11FE42D821CF32BE00C83C6E /* HeadSuspendTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadSuspendTableView.h; sourceTree = "<group>"; };
 		C94F3D4A21C260BB008D94D6 /* TableviewTheory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableviewTheory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94F3D4D21C260BB008D94D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C94F3D4E21C260BB008D94D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,7 +53,6 @@
 		C94F3D6A21C262B9008D94D6 /* DeleteStyleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeleteStyleViewController.m; sourceTree = "<group>"; };
 		C94F3D6C21C262E7008D94D6 /* HeaderSuspendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderSuspendViewController.h; sourceTree = "<group>"; };
 		C94F3D6D21C262E7008D94D6 /* HeaderSuspendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderSuspendViewController.m; sourceTree = "<group>"; };
-		C94F3D6E21C262E7008D94D6 /* HeaderSuspendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderSuspendViewController.xib; sourceTree = "<group>"; };
 		C94F3D7121C264B1008D94D6 /* DeleteStyleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteStyleViewController.xib; sourceTree = "<group>"; };
 		C94F3D7321C264F2008D94D6 /* ReportTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportTableView.h; sourceTree = "<group>"; };
 		C94F3D7421C264F2008D94D6 /* ReportTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportTableView.m; sourceTree = "<group>"; };
@@ -67,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11FE42CB21CF30C400C83C6E /* TheoryStudy */ = {
+			isa = PBXGroup;
+			children = (
+				11FE42CC21CF310400C83C6E /* StudyViewController.h */,
+				11FE42CD21CF310400C83C6E /* StudyViewController.m */,
+			);
+			path = TheoryStudy;
+			sourceTree = "<group>";
+		};
 		C94F3D4121C260BB008D94D6 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +109,7 @@
 				C94F3D4E21C260BB008D94D6 /* AppDelegate.m */,
 				C94F3D5021C260BB008D94D6 /* ViewController.h */,
 				C94F3D5121C260BB008D94D6 /* ViewController.m */,
+				11FE42CB21CF30C400C83C6E /* TheoryStudy */,
 				C94F3D6321C26221008D94D6 /* Theory */,
 				C94F3D6421C26231008D94D6 /* HeaderSuspend */,
 				C94F3D6521C26274008D94D6 /* DeleteStyle */,
@@ -107,6 +127,10 @@
 			children = (
 				C94F3D6621C262A2008D94D6 /* TheoryViewController.h */,
 				C94F3D6721C262A2008D94D6 /* TheoryViewController.m */,
+				11FE42D121CF319000C83C6E /* EOCTableView.h */,
+				11FE42D421CF319000C83C6E /* EOCTableView.m */,
+				11FE42D221CF319000C83C6E /* EOCCellModel.h */,
+				11FE42D321CF319000C83C6E /* EOCCellModel.m */,
 			);
 			path = Theory;
 			sourceTree = "<group>";
@@ -116,7 +140,8 @@
 			children = (
 				C94F3D6C21C262E7008D94D6 /* HeaderSuspendViewController.h */,
 				C94F3D6D21C262E7008D94D6 /* HeaderSuspendViewController.m */,
-				C94F3D6E21C262E7008D94D6 /* HeaderSuspendViewController.xib */,
+				11FE42D821CF32BE00C83C6E /* HeadSuspendTableView.h */,
+				11FE42D721CF32BE00C83C6E /* HeadSuspendTableView.m */,
 			);
 			path = HeaderSuspend;
 			sourceTree = "<group>";
@@ -201,7 +226,6 @@
 				C94F3D5A21C260BC008D94D6 /* LaunchScreen.storyboard in Resources */,
 				C94F3D5721C260BC008D94D6 /* Assets.xcassets in Resources */,
 				C94F3D7221C264B1008D94D6 /* DeleteStyleViewController.xib in Resources */,
-				C94F3D7021C262E7008D94D6 /* HeaderSuspendViewController.xib in Resources */,
 				C94F3D5521C260BB008D94D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,13 +238,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C94F3D8421C34EDF008D94D6 /* ReportCell.m in Sources */,
+				11FE42D521CF319000C83C6E /* EOCCellModel.m in Sources */,
 				C94F3D5221C260BB008D94D6 /* ViewController.m in Sources */,
+				11FE42D621CF319000C83C6E /* EOCTableView.m in Sources */,
 				C94F3D5D21C260BC008D94D6 /* main.m in Sources */,
+				11FE42D921CF32BF00C83C6E /* HeadSuspendTableView.m in Sources */,
 				C94F3D6F21C262E7008D94D6 /* HeaderSuspendViewController.m in Sources */,
 				C94F3D8121C348D1008D94D6 /* UIView+SearchView.m in Sources */,
 				C94F3D7521C264F2008D94D6 /* ReportTableView.m in Sources */,
 				C94F3D4F21C260BB008D94D6 /* AppDelegate.m in Sources */,
 				C94F3D7E21C34898008D94D6 /* ReportTestTableView.m in Sources */,
+				11FE42CF21CF310400C83C6E /* StudyViewController.m in Sources */,
 				C94F3D6821C262A2008D94D6 /* TheoryViewController.m in Sources */,
 				C94F3D6B21C262B9008D94D6 /* DeleteStyleViewController.m in Sources */,
 				C94F3D7821C26605008D94D6 /* DeleteStatusView.m in Sources */,
