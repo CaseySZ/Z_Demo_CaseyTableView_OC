@@ -18,7 +18,6 @@
     
     if (self.contentOffset.y > 800) {
         self.oneHeadView.frame = CGRectMake(0, self.contentOffset.y, self.oneHeadView.frame.size.width, self.oneHeadView.frame.size.height);
-        self.oneHeadView.hidden = NO;
         if (![self.oneHeadView superview]) {
             [self addSubview:self.oneHeadView];
         }

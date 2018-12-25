@@ -14,7 +14,6 @@
 @implementation EOCTableView{
     
     NSMutableArray *_cellPosArr;
-    
     NSMutableArray *_reusePoolArr; // 重用池
     NSMutableDictionary *_visiblePoolDict; // 现有池
     
@@ -109,7 +108,7 @@
 //        }
 //    }
     
-    // 2.3 显示cell
+    // 2.3 显示cell (06:18)
     for(NSInteger i = startIndex; i <= endIndex; i++){
         
         // 2.3.1 获取cell
