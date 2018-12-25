@@ -24,6 +24,10 @@
 
 @implementation ViewController
 
+/*
+ 相关疑问请在评论区留言  https://www.jianshu.com/p/80ec217f6f08
+ */
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBar.translucent = NO;
